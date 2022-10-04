@@ -30,19 +30,19 @@ $ sudo ./webHeck.sh
 
 If there are any permssion errors running the tool files, run 'chmod +x ${toolfile}' or 'sudo chmod +x ${toolfile}'.  
 If there are any errors with the file system or installing, make sure the directory tree matches the one below.  
-## Directory Tree Graph
-WebHeckScanner
--README.md
--webHeck.sh
--nikto/
--nuclei/
--sqlmap/
--req_solos/
---anew
---gau
---gauplus
---httpx
---pv
---waybackurls
+## Directory Tree Graph  
+WebHeckScanner  
+-README.md  
+-webHeck.sh  
+-nikto/  
+-nuclei/  
+-sqlmap/  
+-req_solos/  
+--anew  
+--gau  
+--gauplus  
+--httpx  
+--pv  
+--waybackurls  
 
 ## Thanks for using my scripts, feel free to fork this repo and if you could give me credit for the original code I'd appreciate it!
