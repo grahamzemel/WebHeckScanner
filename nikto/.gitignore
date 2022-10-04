@@ -1,0 +1,7 @@
+*.komodoproject
+/.komodotools/
+/*.bbprojectd/
+*.sublime-project
+*.sublime-workspace
+tags
+nikto.conf

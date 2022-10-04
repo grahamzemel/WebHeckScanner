@@ -1,0 +1,2 @@
+#!/bin/sh
+python3 /Users/gzemel/Desktop/CompSci/Hacking/WebHeck/sqlmap/sqlmap.py -url $url —-level 5 --smart
