@@ -28,7 +28,7 @@ $ chmod +x webHeck.sh
 $ sudo ./webHeck.sh
 ```
 
-If there are any permssion errors running the tool files, run 'chmod +x ${toolfile}' or 'sudo chmod +x ${toolfile}'.  
+If there are any permssion errors running the tool files, run ```chmod +x ${toolfile}``` or ```sudo chmod +x ${toolfile}```.  
 If there are any errors with the file system or installing, make sure the directory tree matches the one below.  
 ## Directory Tree Graph  
 WebHeckScanner  
