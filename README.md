@@ -5,7 +5,7 @@ Written by Graham Zemel, using Nikto, Nucleus, Sqlmap, Anew, Gau, and more!
 ### It uses the following tools (Which must be installed):
 [Sqlmap](https://github.com/sqlmapproject/sqlmap), a tool for testing sql injection vulnerabilities which are some of the most dangerous.  
 [Nikto](https://github.com/sullo/nikto), a tool for scanning websites written in perl, easy to use, one of my favorites.  
-[Nucleus](https://github.com/projectdiscovery/nuclei) is likely the most customizable tool out there for web pentesting,
+[Nuclei](https://github.com/projectdiscovery/nuclei) is likely the most customizable tool out there for web pentesting,
 there's about a million different templates to scan with on Github.   
 
 ### Solo Files (Required files that are contained in a single script / file):  
