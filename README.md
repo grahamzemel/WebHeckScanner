@@ -1,5 +1,5 @@
 # WebHeckScanner
-Written by Graham Zemel, using Nikto, Nucleus, Sqlmap, Anew, Gau, and more!
+Written by Graham Zemel, using Nikto, Nuclei, Sqlmap, Anew, Gau, and more!
 
 ## This is a bash script designed to scan web apps easily, with multiple tools. 
 ### It uses the following tools (Which must be installed):
