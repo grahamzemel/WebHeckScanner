@@ -25,9 +25,14 @@ $ cd WebHeckScanner
 Make sure all tools are installed before continuing
 ```
 $ chmod +x webHeck.sh
-$ sudo ./webHeck.sh
+$ sudo ./webHeck.sh -n 'siteName' -u 'url'
 ```
-
+Example commands (yes, you need to include 'https://' or 'http://' with the URL)
+```
+$ ./webHeck.sh -n 'google' -u 'https://google.com'  
+$ ./webHeck.sh -n 'medium' -u 'https://grahamzemel.medium.com'  
+$ ./webHeck.sh -n 'TheGrayArea' -u 'https://medium.com/the-gray-area'  
+```
 If there are any permssion errors running the tool files, run ```chmod +x ${toolfile}``` or ```sudo chmod +x ${toolfile}```.  
 If there are any errors with the file system or installing, make sure the directory tree matches the one below.  
 ## Directory Tree Graph  
