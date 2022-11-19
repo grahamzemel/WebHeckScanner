@@ -19,7 +19,7 @@ Note: Upon running this command with the same -n value, or name, it will delete 
 
 If there are any permssion errors running the tool files, run ```chmod +x ${toolfile}``` or ```sudo chmod +x ${toolfile}```.  
 If there are any errors with the file system or installing, make sure the directory tree matches the one below.  
-## It uses the following tools:
+# Tools Utilized:
 ### Larger tools stored in their own folders:
 
 [Sqlmap](https://github.com/sqlmapproject/sqlmap), a tool for testing sql injection vulnerabilities which are some of the most dangerous.  
@@ -36,21 +36,7 @@ there's about a million different templates to scan with on Github.
 [PV](https://github.com/a-j-wood/pv): 'Pipe Viewer', used by some of these tools to print the status of a current scan/process.  
 [WayBackUrls](https://github.com/tomnomnom/waybackurls): Neat tool that integrates the waybackmachine as a means of fetching old and possibly useful files that may contain credentials or source code.  
 
-## Installation
-### You must install and configure your directory as I have done or change the code if you have tools in your path already
-```
-$ git clone https://github.com/gzemel/WebHeckScanner
-$ cd WebHeckScanner
-```
-Make sure all tools are installed before continuing
-```
-$ chmod +x webHeck.sh
-$ sudo ./webHeck.sh
-```
-
-If there are any permssion errors running the tool files, run ```chmod +x ${toolfile}``` or ```sudo chmod +x ${toolfile}```.  
-If there are any errors with the file system or installing, make sure the directory tree matches the one below.  
-## Directory Tree Graph  
+# Directory Tree Graph  
 WebHeckScanner  
 -README.md  
 -webHeck.sh  
