@@ -42,7 +42,7 @@ WebHeckScanner
 -webHeck.sh  
 -nikto/  
 -nuclei/  
---nuclei
+--nuclei  
 -sqlmap/  
 -req_solos/  
 --anew  
