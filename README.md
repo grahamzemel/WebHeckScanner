@@ -1,7 +1,8 @@
 # WebHeckScanner (v2.0)
-Written by Graham Zemel, using Nikto, Nuclei, Sqlmap, Anew, Gau, and more!
+Written by [Graham Zemel](https://grahamzemel.com), using Nikto, Nuclei, Sqlmap, Anew, Gau, and more!
 
-This is a bash script designed to scan web apps easily, with multiple tools.   
+This is a Bash script designed to scan web apps for vulnerabilities using advanced tools while maintaining efficiency  
+
 # Installation
 ### You must install and configure your directory as I have done or change the code if you have tools in your path already
 ```
@@ -22,7 +23,7 @@ If there are any errors with the file system or installing, make sure the direct
 # Tools Utilized:
 ### Larger tools stored in their own folders:
 
-[Sqlmap](https://github.com/sqlmapproject/sqlmap), a tool for testing sql injection vulnerabilities which are some of the most dangerous.  
+[Sqlmap](https://github.com/sqlmapproject/sqlmap), a tool for testing SQL injection vulnerabilities which are some of the most dangerous.  
 [Nikto](https://github.com/sullo/nikto), a tool for scanning websites written in perl, easy to use, one of my favorites.  
 [Nuclei](https://github.com/projectdiscovery/nuclei) is likely the most customizable tool out there for web pentesting,
 there's about a million different templates to scan with on Github.  
@@ -51,5 +52,3 @@ WebHeckScanner
 --httpx  
 --pv  
 --waybackurls  
-
-### Thanks for using my scripts, feel free to fork this repo and if you could give me credit for the original code I'd appreciate it!
