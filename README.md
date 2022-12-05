@@ -18,7 +18,7 @@ sudo ./webHeck.sh -n 'folder name to store results in' -u 'any url(keep the apos
 ```
 Note: Upon running this command with the same -n value, or name, it will delete the previous test.
 
-If there are any permssion errors running the tool files, run ```chmod +x ${toolfile}``` or ```sudo chmod +x ${toolfile}```.  
+If there are any permission errors running the tool files, run ```chmod +x ${toolfile}``` or ```sudo chmod +x ${toolfile}```.  
 If there are any errors with the file system or installing, make sure the directory tree matches the one below.  
 # Tools Utilized:
 ### Larger tools stored in their own folders:
@@ -33,7 +33,7 @@ there's about a million different templates to scan with on Github.
 [Anew](https://github.com/tomnomnom/anew): File I/O modification through terminal.    
 [Gauplus](https://github.com/bp0lr/gauplus): 'Get All Urls Plus', outdated but still has useful properties.  
 [Gau](https://github.com/lc/gau): 'Get All Urls', similar to Subdomainer but I like this tool better.    
-[Httpx](https://github.com/projectdiscovery/httpx): Runs a bunch of probes for vulnerabilities, commonly used in combonation with most of these tools.  
+[Httpx](https://github.com/projectdiscovery/httpx): Runs a bunch of probes for vulnerabilities, commonly used in combination with most of these tools.  
 [PV](https://github.com/a-j-wood/pv): 'Pipe Viewer', used by some of these tools to print the status of a current scan/process.  
 [WayBackUrls](https://github.com/tomnomnom/waybackurls): Neat tool that integrates the waybackmachine as a means of fetching old and possibly useful files that may contain credentials or source code.  
 
